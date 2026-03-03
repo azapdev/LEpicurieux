@@ -25,7 +25,7 @@ const Histoire = () => {
             transition={{ duration: 1 }}
             viewport={{ once: true }}
           >
-            <img src="/img/histoire/img1.webp" alt="" className="h-full" />
+            <img src="/img/histoire/img1.webp" alt="" className="md:h-full" />
           </motion.div>
           {/* INFORMATION */}
           <motion.div
