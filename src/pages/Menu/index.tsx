@@ -69,7 +69,7 @@ const Menu = () => {
           </div>
 
           {/* INPUT */}
-          <div className="relative mx-4 my-4">
+          <div className="relative mx-4 my-4 w-75 md:w-96">
             <form
               onSubmit={handleSubmit((data) => {
                 alert(`EMAIL WAS SENT: ${data.email}`);
@@ -79,7 +79,7 @@ const Menu = () => {
               <input
                 type="email"
                 {...register("email")}
-                className="h-10 px-4 outline-1 md:h-12 md:w-sm"
+                className="h-8 w-full px-4 outline-1 md:h-12"
                 placeholder="E-Mail:"
               />
               {errors.email && (
@@ -87,7 +87,7 @@ const Menu = () => {
               )}
               <button
                 type="submit"
-                className="absolute top-0 right-0 h-10 cursor-pointer border-black bg-black px-2 text-white outline-1 duration-200 hover:bg-white hover:text-black md:h-12 md:text-xl"
+                className="absolute top-0 right-0 h-9 cursor-pointer border-black bg-black px-2 text-white outline-1 duration-200 hover:bg-white hover:text-black md:h-12 md:text-xl"
               >
                 Send
               </button>
