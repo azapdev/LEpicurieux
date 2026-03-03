@@ -87,7 +87,7 @@ const Menu = () => {
               )}
               <button
                 type="submit"
-                className="absolute top-0 right-0 h-9 cursor-pointer border-black bg-black px-2 text-white outline-1 duration-200 hover:bg-white hover:text-black md:h-12 md:text-xl"
+                className="absolute top-0 right-0 h-8 cursor-pointer border-black bg-black px-2 text-white outline-1 duration-200 hover:bg-white hover:text-black md:h-12 md:text-xl"
               >
                 Send
               </button>
