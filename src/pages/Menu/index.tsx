@@ -55,7 +55,7 @@ const Menu = () => {
         >
           {/* MENU */}
           <p className="mx-4 text-sm md:text-xl">MENU</p>
-          <p className="mx-4 max-w-xl px-12 text-center text-lg md:text-3xl">
+          <p className="mx-4 max-w-xl md:px-12 text-center text-lg md:text-3xl">
             MENU Notre menu change au gré des saisons et selon les arrivages.
           </p>
 
